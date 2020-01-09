@@ -1,100 +1,98 @@
-.inscriptions {
-    height: 800px;
-    background: #D0D0D0;
-    width: 100%;
-    text-align: center;
-    padding-top: 30px;
+/* Style de la section Formulaire; */
+.formulaire{
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 2px;
+    padding: 20px;
+    height: 200px;;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
-
-.h1inscription {
-    color:#fff;
-    margin: 50px;
+.formulaire h1{
+    display: block;
     text-align: center;
     padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: #0173bc;
+    font-size:x-large;
 }
-
-.inscriptions__title {
-    font-size: 24px;
+.formulaire ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.formulaire li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.formulaire li:last-child{
+    border:none;
+    margin-bottom: 0px;
     text-align: center;
-    color: #fff;
-    border-bottom: 2px solid rgb(50, 161, 165);
-    display: inline;
 }
-
-.inscriptions__items {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 20px;
-    flex-wrap: wrap;
-}
-
-.inscription {
-    width: 25%;
-    height: 200px;
-    background: black;
-    border-radius: 6px;
-    position: relative;
+.formulaire li > label{
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: #FFFFFF;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: #0173bc;
+    font-size: 14px;
     overflow: hidden;
-    background: rgb(0, 63, 102);
-    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.inscription__event {
-    margin-top: 60px;
+.formulaire input[type="text"],
+.formulaire input[type="email"],
+.formulaire select 
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     width: 100%;
-    height: 200px;
-    background: black;
-    border-radius: 6px;
-    position: relative;
-    overflow: hidden;
-    background: rgb(0, 63, 102);
-    cursor: pointer;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.formulaire li > span{
+    background: #F3F3F3;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #0173bc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.formulaire textarea{
+    resize:none;
 }
 
-.inscription__filter {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;left: 0;
-    background: linear-gradient(rgba(13, 52, 82, 0.2), rgba(0, 56, 77, 0.9));
+.formulaire input[type="submit"],
+.formulaire input[type="button"]{
+    background: #0173bc;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid #0173bc;
+    border-radius: 3px;
+    color: #D2E2FF;
+}
+.formulaire input[type="submit"]:hover,
+.formulaire input[type="button"]:hover{
+    background: #0173bc;
+    color:#fff;
 }
 
-.inscription__name {
-    color: #fff;
-    z-index: 999;
-    position: relative;
-    padding-top: 50px;
-    font-size: 18px;
-}
-
-.inscription:hover .inscription__icon {
-    transform: translateX(0);
-}
-
-.inscription__icon {
-    z-index: 1;
-    position: absolute;
-    top: 0;left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    color: #fff;
-    padding-top: 50px;
-    opacity: 0.5;
-    height: 100%;
-    width: 100%;
-    transition: all 0.3s ease-in-out;
-    transform: translateX(100%);
-}
-
-@media only screen and (max-width: 1100px) {
-    .inscriptions__items {
-        justify-content: center;
-    }
-    .inscription {
-        width: 300px;
-        margin-bottom: 20px;
-    }
+.h3formulaire {
+    text-align: center;
+    color:#0173bc;
+    text-decoration: underline;
 }

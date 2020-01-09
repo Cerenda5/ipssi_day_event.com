@@ -182,21 +182,58 @@
         </div>
         
         <div id ="section5">
-            <div class="inscriptions">
-                <div class="container">
-                    <h1 class="h1inscription">Inscription à l'évènement</h1>
-                    <div class="wrapper">
-                        <div class="contact-form">
-                            <div class="input-fields">
-                                <input type="text" class="input" placeholder="Prenom">
-                                <input type="text" class="input" placeholder="Nom">
-                                <input type="text" class="input" placeholder="Email Address">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="formulaire">
+
+                <?php
+                    //Verification si le mail est déjà en BDD
+                    if($_POST){ 
+                        if(!empty($_POST['nom'])  && !empty($_POST['prenom'])  && !empty($_POST['email'])) {
+                            $r = $bdd->prepare("SELECT * FROM participant WHERE email = '$_POST[email]' ");
+                            $r->execute();
+                            if($r->rowCount() >= 1 ){
+                                $inscrip = '<div style="color:red;text-align:center;">Email indisponible</div>';
+                            }
+                            unset($r);
+                            if (empty($inscrip)){
+                                $r= $bdd->prepare("INSERT INTO participant(nom, prenom, email) VALUES('$_POST[nom]', '$_POST[prenom]', '$_POST[email]')");
+                                $r->execute();
+                            }
+                        }
+                    }
+                ?>
+
+                <?php if(!empty($inscrip)){
+                        echo ($inscrip);
+                    }
+                ?>
+
+                <h3 class="h3formulaire">Participez à l'Ipssi Day !</h3>
+                
+                <form class="formulaire"  method="post">
+                    <ul>
+                        <li>
+                            <label for="nom">Nom</label>
+                            <input type="text" name="nom" maxlength="100" required>
+                            <span>Entrer votre nom</span>
+                        </li>
+                        <li>
+                            <label for="prenom">Prénom</label>
+                            <input type="text" name="prenom" maxlength="100" required>
+                            <span>Entrer votre nom</span>
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" maxlength="100" required>
+                            <span>Entrer votre Adresse Mail</span>
+                        </li>
+                        <li>
+                            <input type="submit" value="Valider" >
+                        </li>
+                    </ul>
+                </form>
             </div>
         </div>
+        
         <div id ="section6">
             <div class="infos">
                 <div class="container">
