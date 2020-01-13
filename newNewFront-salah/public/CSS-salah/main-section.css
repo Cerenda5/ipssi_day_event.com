@@ -1,0 +1,20 @@
+.section-main{
+    width: 100%;
+    height: 650px;
+}
+.main-background{
+    width: 100%;
+    height: 100%;
+}
+.main-title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    color: white;
+}
+#title-1{
+    top: 250px;
+}#title-2{
+    top: 300px;
+}

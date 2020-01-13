@@ -1,0 +1,22 @@
+.section-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: solid 40px #0073bc;
+    border-bottom: solid 40px #0073bc;
+}
+.container-info-left{
+    width: 50%;
+}
+.container-info-right{
+    width: 50%;
+}
+.container-adresse{
+
+}
+.container-social{
+
+}
+.social-image{
+
+}
