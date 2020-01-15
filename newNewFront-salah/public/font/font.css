@@ -1,0 +1,356 @@
+@font-face {
+    font-family: 'digitalismregular';
+    src: url('digitalism-webfont.woff2') format('woff2'),
+    url('digitalism-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'earth_orbiterregular';
+    src: url('earthorbiter-webfont.woff2') format('woff2'),
+    url('earthorbiter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'expresswayregular';
+    src: url('expressway_rg-webfont.woff2') format('woff2'),
+    url('expressway_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'florencesansregular';
+    src: url('florsn01-webfont.woff2') format('woff2'),
+    url('florsn01-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fontdinerdotcom_huggableRg';
+    src: url('fonth___-webfont.woff2') format('woff2'),
+    url('fonth___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'good_timesregular';
+    src: url('good_times_rg-webfont.woff2') format('woff2'),
+    url('good_times_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'groboldregular';
+    src: url('grobold-webfont.woff2') format('woff2'),
+    url('grobold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'minimalregular';
+    src: url('minimal-webfont.woff2') format('woff2'),
+    url('minimal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'next_artbold';
+    src: url('next_art_bold-webfont.woff2') format('woff2'),
+    url('next_art_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'next_artregular';
+    src: url('next_art_regular-webfont.woff2') format('woff2'),
+    url('next_art_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'another_flightregular';
+    src: url('another_flight-webfont.woff2') format('woff2'),
+    url('another_flight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arkitechlight';
+    src: url('arkitech_light-webfont.woff2') format('woff2'),
+    url('arkitech_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arkitech_mediummedium';
+    src: url('arkitech_medium-webfont.woff2') format('woff2'),
+    url('arkitech_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'btse__ps2_fontregular';
+    src: url('btseps2-webfont.woff2') format('woff2'),
+    url('btseps2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bunny_funnyregular';
+    src: url('bunnyfunny-webfont.woff2') format('woff2'),
+    url('bunnyfunny-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'code_boldregular';
+    src: url('code_bold-webfont.woff2') format('woff2'),
+    url('code_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'code_lightregular';
+    src: url('code_light-webfont.woff2') format('woff2'),
+    url('code_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'conthraxsemibold';
+    src: url('conthrax-sb-webfont.woff2') format('woff2'),
+    url('conthrax-sb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cubicregular';
+    src: url('cubic-webfont.woff2') format('woff2'),
+    url('cubic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dash_digital-7regular';
+    src: url('dash_digital-7-webfont.woff2') format('woff2'),
+    url('dash_digital-7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'digitaledregular';
+    src: url('digitaled-webfont.woff2') format('woff2'),
+    url('digitaled-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'next_artthin';
+    src: url('next_art_thin-webfont.woff2') format('woff2'),
+    url('next_art_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prismregular';
+    src: url('prismfont_clv3-webfont.woff2') format('woff2'),
+    url('prismfont_clv3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prototyperegular';
+    src: url('prototype-webfont.woff2') format('woff2'),
+    url('prototype-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansationbold';
+    src: url('sansation_bold-webfont.woff2') format('woff2'),
+    url('sansation_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansationitalic';
+    src: url('sansation_italic-webfont.woff2') format('woff2'),
+    url('sansation_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansation_lightregular';
+    src: url('sansation_light-webfont.woff2') format('woff2'),
+    url('sansation_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansationregular';
+    src: url('sansation_regular-webfont.woff2') format('woff2'),
+    url('sansation_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scorpionregular';
+    src: url('scorpion-webfont.woff2') format('woff2'),
+    url('scorpion-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'the_light_fontregular';
+    src: url('thelightfont-webfont.woff2') format('woff2'),
+    url('thelightfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

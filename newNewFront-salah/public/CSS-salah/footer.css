@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'sansationbold';
+    src: url('../font/sansation_bold-webfont.woff2') format('woff2'),
+    url('../font/sansation_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+footer{
+    height: 30px;
+    margin-top: 3%;
+    background-color: #3e4059ff;
+}
+.container-link{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.footer-link{
+    color: white;
+    font-family: sansationbold;
+}

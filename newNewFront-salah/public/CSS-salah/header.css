@@ -1,0 +1,20 @@
+header{
+    width: 100%;
+    background-color: black;
+}
+#navBar{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navBar-link{
+    text-decoration: none;
+    color: #D0D0D0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

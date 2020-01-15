@@ -1,0 +1,34 @@
+.section-presentation{
+    width: 100%;
+}
+.container-article-1 {
+}
+.presentation-title{
+    width: 100%;
+    text-align: center;
+    font-size: 160%;
+}
+.content-article-1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+.content-art{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 140%;
+}
+.content-art span{
+    font-weight: bold;
+}
+.container-article-2{
+
+}
+.content-text{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
